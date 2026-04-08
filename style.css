@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background-color: #1e1e2f;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #2c2c3e;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px black;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.descricao {
+  margin: 10px 0;
+}
+
+.habilidades, .caracteristicas {
+  margin-top: 10px;
+}
